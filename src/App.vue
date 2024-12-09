@@ -24,16 +24,13 @@ async function getData() {
 
     <template v-slot:btnSlot> Submit </template> -->
 
-     <!-- The v-slot directive can receive the data from a prop in its value. The data will be available as an object so we can use dot notation to access the prop.
-//  -->
-<!--     <template v-slot:propSlot="slotValue">
-       {{ slotValue.propName }}
-     </template>
+    
+   <!--    
    </Slots>
 
    <Slots v-slot:localdata="dataFromSlot">{{ dataFromSlot.lclData }}</Slots>
-</template> -->
-
+</template> 
+-->
 
 //CardSlot component rendering
  <!-- <template>
@@ -42,7 +39,7 @@ async function getData() {
 </template>  -->
 
 // FetchData component rendering
-<template>
+<!-- <template>
   <h1>FetchData</h1>
   <button @click="getData">Get Data</button>
 <FetchData v-for="i in details" :key="i">
@@ -50,7 +47,7 @@ async function getData() {
  
 </FetchData>
   
-</template>
+</template> -->
 
 <style scoped>
 h3 {
